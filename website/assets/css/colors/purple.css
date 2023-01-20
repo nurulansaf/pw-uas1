@@ -185,7 +185,7 @@ blockquote,
   fill: #f5f5fc;
 }
 .shape.pale-primary .svg-fill {
-  fill: #e9eaf8;
+  fill: #00acc30f;
 }
 ::-moz-selection {
   background: rgba(116, 126, 209, 0.7);
@@ -213,7 +213,7 @@ blockquote,
 }
 a.hover-2:before,
 a.hover-3:before {
-  background-color: #e9eaf8;
+  background-color: #00acc30f;
 }
 .bg-soft-primary {
   background-color: #f5f5fc !important;
@@ -222,10 +222,10 @@ a.hover-3:before {
   color: #f5f5fc !important;
 }
 .bg-pale-primary {
-  background-color: #e9eaf8 !important;
+  background-color: #00acc30f !important;
 }
 .text-pale-primary {
-  color: #e9eaf8 !important;
+  color: #00acc30f !important;
 }
 .bg-gradient-primary {
   background: linear-gradient(180deg, #f5f5fc, rgba(255, 255, 255, 0) 100%);
@@ -246,11 +246,11 @@ a.hover-3:before {
 }
 .wrapper.bg-pale-primary.angled.lower-start:after,
 .wrapper.bg-pale-primary.angled.upper-start:before {
-  border-left-color: #e9eaf8;
+  border-left-color: #00acc30f;
 }
 .wrapper.bg-pale-primary.angled.lower-end:after,
 .wrapper.bg-pale-primary.angled.upper-end:before {
-  border-right-color: #e9eaf8;
+  border-right-color: #00acc30f;
 }
 .icon-list.bullet-soft-primary.bullet-bg i {
   background-color: #e6e8f7;
@@ -262,7 +262,7 @@ form.dark-fields .form-control:focus {
   border-color: rgba(116, 126, 209, 0.5);
 }
 .btn-soft-primary {
-  background-color: #e9eaf8;
+  background-color: #00acc30f;
 }
 .btn-expand.btn-primary {
   color: #28A9C1;
@@ -278,7 +278,7 @@ form.dark-fields .form-control:focus {
 }
 .btn-expand.btn-soft-primary:before {
   color: #28A9C1;
-  background-color: #e9eaf8;
+  background-color: #00acc30f;
 }
 .btn-expand.btn-soft-primary:hover {
   color: #28A9C1;
