@@ -37335,3 +37335,120 @@ footer.bg-dark.angled.lower-start:after,
 footer.bg-dark.angled.upper-start:before {
   border-left-color: #21262c !important;
 }
+
+
+/* TAMBHAAN */
+.card-kategori{
+  background: #fff;
+  margin-top: -80px;
+}
+.card-kategori p{
+  text-align: left;
+}
+
+.card-kategori .icon-kat{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #eeae0317;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.card-kategori .icon-kat img{
+  width: 70%;
+}
+
+.span{
+  color: #EEAE03; 
+}
+
+/* FOOTER */
+.footer-wrapper {
+  /* background-color: #15191c; */
+  border-top: 1px solid #F2F2F3;
+  background: url(../img/bg/bg-pattern2.png) #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 50px 0 0;
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+  font-size: 13px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+  background: #00acc3;
+  border-radius: 20px 20px 0 0;
+}
+.footer-wrapper .widget ul {
+  padding-left: 0;
+}
+.footer-wrapper .widget ul li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #888888 !important;
+}
+.footer-wrapper .widget ul li i {
+  color: #00bfd6;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.widget h4::after {
+  background: #ffb453;
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 7px 0 0;
+  width: 35px;
+  border-radius: 40pc;
+}
+.social a:not(.btn-circle) {
+  font-size: 1rem;
+  transition: all .2s ease-in-out;
+  transform: translateY(0);
+  background-color: #fab7581a;
+  padding: 5px;
+  /* width: 50px; */
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #fab758;
+}
+.btn-cari{
+  line-height: 0;
+  padding: 0 5px;
+  font-size: 13px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.post-content p{
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.bg-pattern1{
+  background: url(../img/bg/bg-pattern2.png) #fff no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern2{
+  background: url(../img/bg/bg-pattern3.png) #fff no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern3{
+  background: url(../img/bg/bg-pattern4.png) #FAFDFE no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern4{
+  background: url(../img/bg/bg-pattern4.png) #fff no-repeat center center;
+  background-size: cover;
+}
