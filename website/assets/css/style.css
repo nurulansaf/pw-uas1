@@ -9037,6 +9037,13 @@ textarea.form-control.is-invalid {
 .pe-25 {
   padding-right: 22.5rem !important;
 }
+
+.pl-3 {
+  padding-right: 0.75rem !important;
+}
+.pr-3 {
+  padding-right: 0.75rem !important;
+}
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -31114,7 +31121,7 @@ button.hamburger span {
 }
 .modal .btn-close {
   position: absolute;
-  top: 0.7rem;
+  /* top: 0.7rem; */
   right: 0.7rem;
 }
 .modal.fade.modal-bottom-center .modal-dialog {
@@ -37344,6 +37351,101 @@ footer.bg-dark.angled.upper-end:before {
 footer.bg-dark.angled.lower-start:after,
 footer.bg-dark.angled.upper-start:before {
   border-left-color: #21262c !important;
+}
+
+/* FOOTER */
+.footer-wrapper {
+  /* background-color: #15191c; */
+  border-top: 1px solid #F2F2F3;
+  background: url(../img/bg/bg-pattern2.png) #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 50px 0 0;
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+  font-size: 13px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+  background: #00acc3;
+  border-radius: 20px 20px 0 0;
+}
+.footer-wrapper .widget ul {
+  padding-left: 0;
+}
+.footer-wrapper .widget ul li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #888888 !important;
+}
+.footer-wrapper .widget ul li i {
+  color: #00bfd6;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.widget h4::after {
+  background: #ffb453;
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 7px 0 0;
+  width: 35px;
+  border-radius: 40pc;
+}
+.social a:not(.btn-circle) {
+  font-size: 1rem;
+  transition: all .2s ease-in-out;
+  transform: translateY(0);
+  background-color: #fab7581a;
+  padding: 5px;
+  /* width: 50px; */
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #fab758;
+}
+.btn-cari{
+  line-height: 0;
+  padding: 0 5px;
+  font-size: 13px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* TAMBHAAN */
+.card-kategori{
+  background: #fff;
+  margin-top: -80px;
+}
+.card-kategori p{
+  text-align: left;
+}
+
+.card-kategori .icon-kat{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #eeae0317;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.card-kategori .icon-kat img{
+  width: 70%;
+}
+
+.span{
+  color: #EEAE03; 
 }
 
 /* FOOTER */
