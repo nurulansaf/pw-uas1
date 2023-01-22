@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #28A9C1;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #28A9C1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -276,6 +276,9 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
+.btn-primary{
+  background-color: #28A9C1!important;
+}
 
 /* Close Button */
 .btn-close {
@@ -310,7 +313,7 @@ h6 {
 
 .accordion-flush .accordion-button:not(.collapsed) {
   box-shadow: none;
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .accordion-flush .accordion-body {
@@ -358,13 +361,13 @@ h6 {
 
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
-  border-bottom: 2px solid #4154f1;
+  color: #28A9C1;
+  border-bottom: 2px solid #28A9C1;
 }
 
 /*--------------------------------------------------------------
@@ -379,10 +382,10 @@ h6 {
     width: 280px;
   }
 }
-
 .logo img {
-  max-height: 26px;
-  margin-right: 6px;
+  width: 60%!important;
+  display: block;
+  margin: 0 auto;
 }
 
 .logo span {
@@ -700,7 +703,7 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #28A9C1;
   transition: 0.3;
   background: #f6f9ff;
   padding: 10px 15px;
@@ -710,7 +713,7 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .sidebar-nav .nav-link.collapsed {
@@ -723,12 +726,12 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
+  color: #28A9C1;
   background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -766,11 +769,11 @@ h6 {
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .sidebar-nav .nav-content a.active i {
-  background-color: #4154f1;
+  background-color: #28A9C1;
 }
 
 /*--------------------------------------------------------------
@@ -793,7 +796,7 @@ h6 {
 
 .dashboard .filter .icon:hover,
 .dashboard .filter .icon:focus {
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .dashboard .filter .dropdown-header {
@@ -837,7 +840,7 @@ h6 {
 }
 
 .dashboard .sales-card .card-icon {
-  color: #4154f1;
+  color: #28A9C1;
   background: #f6f6fe;
 }
 
@@ -922,7 +925,7 @@ h6 {
 }
 
 .dashboard .news h4 a:hover {
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .dashboard .news p {
@@ -1070,7 +1073,7 @@ h6 {
 .faq .basic h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .faq .basic p {
@@ -1087,7 +1090,7 @@ h6 {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #28A9C1;
 }
 
 .contact .info-box h3 {
@@ -1155,7 +1158,7 @@ h6 {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: #28A9C1;
 }
 
 .contact .php-email-form input {
@@ -1167,7 +1170,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #28A9C1;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1209,7 +1212,7 @@ h6 {
 .error-404 h1 {
   font-size: 180px;
   font-weight: 700;
-  color: #4154f1;
+  color: #28A9C1;
   margin-bottom: 0;
   line-height: 150px;
 }
@@ -1257,4 +1260,35 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/* TAMBHAN */
+
+.span{
+  color: #EEAE03;
+}
+.bg-pattern1{
+  background: url(../img/bg/bg-pattern2.png) #fff no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern2{
+  background: url(../img/bg/bg-pattern3.png) #fff no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern3{
+  background: url(../img/bg/bg-pattern4.png) #FAFDFE no-repeat center center;
+  background-size: cover;
+}
+.bg-pattern4{
+  background: url(../img/bg/bg-pattern4.png) #fff no-repeat center center;
+  background-size: cover;
+}
+.footer-signin{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+  background: #00acc3;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
 }
